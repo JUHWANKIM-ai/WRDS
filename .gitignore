@@ -1,3 +1,24 @@
+# Raw WRDS/Compustat extract (too large to version; see README)
 /input/green.csv
-/output_dropna/
+/input/green.parquet
+
+# Generated panels
 /output_direct/
+/output_dropna/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Editors / OS
+.idea/
+.vscode/
+.DS_Store
+*Zone.Identifier
